@@ -1,9 +1,15 @@
 version: '3.1'
 
 services:
-  website:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  www-westerdao:
+    container_name: www-westerdao
+    image: www-westerdao
+    build: .
     ports:
-        - "3000:3000"
+        - "4000:3000"
+    networks:
+      - homedock
+
+networks:
+  homedock:
+    external: true

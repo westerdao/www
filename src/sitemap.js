@@ -1,13 +1,13 @@
 export default {
 
     Company: {
-        fqdn: 'b-street.build',
-        tld: '.build',
-        name: 'b-street.build',
-        title: 'b-street.build',
-        slogan: 'We build helpful',
+        fqdn: 'westerdao.finance',
+        tld: '.finance',
+        name: 'westerdao',
+        title: 'westerdao.finance',
+        slogan: 'Come join West',
         Meta: {
-            description: 'b-street.build helps build products and services for crypto and blockchain.',
+            description: 'Westerdao.finance is a fork of OlympusDAO.',
         }
     },
 
